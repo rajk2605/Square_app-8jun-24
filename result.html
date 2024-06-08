@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title> Square App By Raj </title>
+	<link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+<center>
+	<div class="nav">
+		<a href="index.html">Home</a>
+		<a href="about.html">About US</a>
+
+	</div>
+	<h1> Result </h1>
+	<h2 id="msg" />
+
+	<script>
+		let msg = document.getElementById("msg");
+		let res = localStorage.getItem("res");
+
+		if(res == null)
+		{
+			msg.innerHTML = "You're trying to tresspass";
+			function goback()
+			{
+				window.loaction.href = "index.html";
+			}
+			setTimeout(goback, 5000);
+		}
+		else
+		{
+			msg.innerHTML = "Square =" + parseFloat(res).toFixed(2);
+		}
+	</script>
+</center>
+</body>
+</html>
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

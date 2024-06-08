@@ -1,0 +1,26 @@
+*
+{
+	font-size:40px;
+	font-family: Times New Roman;
+								
+}
+body
+{
+	background-color:lightblue;
+}
+.nav
+{
+	background-color:black;
+}
+.nav a
+{
+	color:white;
+	text-decoration:none;
+	margin:10%;
+}
+h2
+{
+	border:solid;
+	width:70%;
+	border-radius:30px;
+}
